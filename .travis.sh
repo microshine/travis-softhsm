@@ -10,6 +10,7 @@ sudo apt-get install libtool -y
 # Installing OpenSSL
 git clone https://github.com/openssl/openssl.git -b OpenSSL_1_0_2-stable
 cd openssl
+export CFLAGS="-fPIC"
 ./config
 make
 sudo make install
