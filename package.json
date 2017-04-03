@@ -1,0 +1,20 @@
+{
+  "name": "travis-softhsm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Success\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/microshine/travis-softhsm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/microshine/travis-softhsm/issues"
+  },
+  "homepage": "https://github.com/microshine/travis-softhsm#readme"
+}
