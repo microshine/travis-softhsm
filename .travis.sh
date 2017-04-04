@@ -14,9 +14,6 @@ cd openssl
 make
 sudo make install
 
-echo "Print /usr/local/ssl"
-ls /usr/local/ssl
-
 cd ..
 
 # Installing SoftHSM
@@ -27,6 +24,10 @@ sh ./autogen.sh
 make
 sudo make install
 cd ..
+echo
+echo "SoftHSM was installed"
+ls /usr/local/lib
+echo
 sudo ldconfig
 
 # initializing SoftHSM
